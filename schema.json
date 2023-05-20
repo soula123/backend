@@ -1,0 +1,53 @@
+{
+  "tables": [
+    {
+      "name": "regions",
+      "colones": [
+        "region_id",
+        "region_name"
+      ],
+      "whereclause": [
+        {
+          "colone": "region_id",
+          "op": "<",
+          "value": 50
+        }
+      ]
+    }
+  ]
+}
+
+
+{
+  "id": "2",
+  "new_name": "whatever"
+}
+  
+{
+  "contacts": {
+    "columns": [
+      "first_name",
+      "last_name"
+    ],
+    "filters": [
+      {
+        "Column": "first_name",
+        "Operation": "=",
+        "value": "ahmed"
+      }
+    ]
+  },
+  "employees": {
+    "columns": [
+      "email",
+      "phone"
+    ],
+    "filters": [
+      {
+        "Column": "first_name",
+        "Operation": "=",
+        "value": "ahmed"
+      }
+    ]
+  }
+}
